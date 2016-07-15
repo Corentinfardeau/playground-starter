@@ -1,0 +1,62 @@
+{
+  "name": "playground-starter",
+  "version": "1.0.0",
+  "description": "simple project starter",
+  "main": "gulpfile.js",
+  "author": "Corentin Fardeau - fardeaucorentin@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run server",
+    "server": "gulp server --watch",
+    "staging": "gulp server --staging",
+    "live": "gulp server --live"
+  },
+  "dependencies": {
+    "gsap": "^1.18.5",
+    "jquery": "^2.1.4",
+    "nk-css-reset": "^1.0.1",
+    "underscore": "^1.8.3",
+    "fastclick": "^1.0.6",
+    "size": "watsondg/size",
+    "sniffer": "watsondg/sniffer"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "2.6.5",
+    "browserify": "^11.0.1",
+    "browserify-shim": "^3.8.10",
+    "colors": "^1.1.2",
+    "del": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-concat": "2.5.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-template": "^4.0.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.6",
+    "lodash.assign": "^3.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1",
+    "minimist": "^1.1.2",
+    "gulp-clean-css" : "2.0.11",
+    "rimraf": "^2.4.2"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "timelinemax": "global:TimelineMax",
+    "tweenmax": "global:TweenMax",
+    "jquery": "$",
+    "underscore": "_"
+  }
+}
