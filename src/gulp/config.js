@@ -32,12 +32,13 @@ var options = {
     cssDest    : project.foldersName.build + '/styles/',
     jsEntry    : project.foldersName.entry + '/scripts/',
     jsDest     : project.foldersName.build + '/scripts/',
-    jsVendors  : project.foldersName.entry + '/scripts/vendors/',
+    jsVendorsEntry  : project.foldersName.entry + '/vendors/',
     mainJS     : 'app.js',
     imageEntry : project.foldersName.entry + '/assets/images/',
     imageDest  : project.foldersName.build + '/assets/images/',
     copyBase   : project.foldersName.entry + '/assets/',
     copyDest   : project.foldersName.build + '/assets/',
+    jsVendorsDest   : project.foldersName.build + '/vendors/',
     envOpts    : envOpts
 
 }

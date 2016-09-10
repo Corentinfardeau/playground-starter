@@ -6,7 +6,7 @@ cleanCSS = require('gulp-clean-css'),
 sourcemaps  = require('gulp-sourcemaps'),
 config   = require('../config');
 
-gulp.task('build', ['clean', 'assets', 'html', 'scripts', 'styles'], function(cb) {
+gulp.task('build', ['clean', 'assets', 'vendors', 'html', 'scripts', 'styles'], function(cb) {
 
   if (config.envOpts.minify) {
 
