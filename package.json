@@ -8,7 +8,6 @@
   "scripts": {
     "start": "npm run server",
     "server": "gulp server --watch",
-    "staging": "gulp server --staging",
     "live": "gulp server --live"
   },
   "dependencies": {
@@ -16,7 +15,6 @@
     "jquery": "^2.1.4",
     "nk-css-reset": "^1.0.1",
     "underscore": "^1.8.3",
-    "fastclick": "^1.0.6",
     "size": "watsondg/size",
     "sniffer": "watsondg/sniffer"
   },

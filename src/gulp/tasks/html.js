@@ -9,7 +9,6 @@ config      = require('../config');
 var paths = project.env[config.envOpts.env];
 
 gulp.task('html', function(){
-
   gulp.src(project.foldersName.entry + '/**/*.html')
   	.pipe(template(paths))
 	.pipe(gulp.dest('./' + project.foldersName.build + '/'))

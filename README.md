@@ -1,6 +1,6 @@
 # Playground-starter
 
-A quick starter for lab projects.   
+A quick starter for lab projects and Experiments. 
 Including 
 * [Gulp](http://gulpjs.com/)
 * [Sass](http://sass-lang.com/)
@@ -20,7 +20,7 @@ $ npm install
 ```
 ## Run the project
 
-There is three kind of environments available : `dev`,  `staging`, `live`. To change the config of each environement you need to edit the __project.json__ file. 
+There is three types of environments available : `dev`,  `staging`, `live`. To change the config of each environement you need to edit the __project.json__ file. 
 
 - Build and watch the app with __development configs__
 ```shell
@@ -36,5 +36,4 @@ $ npm run live
 ```
 
 ### License
-
 MIT

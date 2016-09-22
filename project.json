@@ -1,4 +1,5 @@
 {
+    "title": "Playground",
     "foldersName": {
         "entry" : "src",  
         "build" :  "build"
@@ -10,13 +11,6 @@
             "scriptURL": "/",
             "assetsURL": "/assets/",
             "env" : "dev"
-        },
-        "staging": {
-            "siteURL": "",
-            "baseURL": "/",
-            "scriptURL": "/",
-            "assetsURL": "/assets/",
-            "env" : "staging"
         },
         "live": {
             "siteURL": "",

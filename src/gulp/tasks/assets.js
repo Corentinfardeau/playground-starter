@@ -10,9 +10,3 @@ gulp.task('assets', function(){
 	.pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('vendors', function(){
-  return gulp.src(config.jsVendorsEntry + '**/*')
-	.pipe(gulp.dest(config.jsVendorsDest))
-	.pipe(browserSync.reload({stream:true}));
-});
-
